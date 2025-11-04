@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "calc.css">
+</head>
+<body >
+    <div class="outer">
+        <div class="calc">
+            <h1>IOS Calculator</h1>
+        </div>
+
+        <div class="display">
+            <input type="text" id="display" disabled>
+        </div>
+         <br>
+    <div class = " numbers">
+        <button onclick="appendnum('1')">1</button>
+        <button onclick="appendnum('2')">2</button>
+        <button onclick="appendnum('3')">3</button>
+        <button onclick="chooseoperation('+')">+</button> <br>
+
+        <button onclick="appendnum('4')">4</button>
+        <button onclick="appendnum('5')">5</button>
+        <button onclick="appendnum('6')">6</button>
+        <button onclick="chooseoperation('-')">-</button> <br>     
+
+        <button onclick="appendnum('7')">7</button>
+        <button onclick="appendnum('8')">8</button>
+        <button onclick="appendnum('9')">9</button>
+        <button onclick="chooseoperation('*')">*</button> <br>
+
+        <button onclick="appendnum('.')">.</button>
+        <button onclick="appendnum('0')">0</button>
+        <button onclick="compute()">=</button>
+        <button onclick="chooseoperation('/')">/</button> <br>
+
+    </div>
+        
+        
+       
+    </div>
+   
+    <script src="calc.js"></script>  
+</body>
+</html>

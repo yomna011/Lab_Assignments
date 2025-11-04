@@ -1,0 +1,25 @@
+.outer{
+   align-items: center; 
+   
+   justify-content: center;
+   background-color: gray;
+}
+
+.calc{
+    color: rgb(215, 25, 136);
+    text-align: center;
+    align-content: center;
+
+}
+.display{
+    margin-left: 200px;
+    display: inline-block;
+    background-color: white;
+}
+.calc{
+    display: block;
+    
+}
+.numbers{
+     margin-left: 200px;
+}
